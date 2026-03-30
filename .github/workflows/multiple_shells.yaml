@@ -23,7 +23,7 @@ jobs:
       - name: current directory with bash
         run: pwd
         shell: bash
-      - name: print some default env variables
+      - name: print some default1 env variables
         run: |
           echo "HOME: ${HOME}"
           echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
